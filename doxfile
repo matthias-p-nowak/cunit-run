@@ -1,0 +1,34 @@
+
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = "Queue in C"
+OUTPUT_DIRECTORY       = doc
+OUTPUT_LANGUAGE        = English
+
+ABBREVIATE_BRIEF       = "The $name class" \
+                         "The $name widget" \
+                         "The $name file" \
+                         is \
+                         provides \
+                         specifies \
+                         contains \
+                         represents \
+                         a \
+                         an \
+                         the
+
+
+
+INLINE_SIMPLE_STRUCTS  = YES
+EXTRACT_ALL            = YES
+EXTRACT_LOCAL_METHODS  = YES
+CASE_SENSE_NAMES       = YES
+FORCE_LOCAL_INCLUDES   = YES
+SORT_BRIEF_DOCS        = YES
+
+WARN_FORMAT            = "$file:$line: $text"
+
+USE_MDFILE_AS_MAINPAGE = approach.md
+
+GENERATE_HTML          = YES
+GENERATE_LATEX = NO
+GENERATE_MAN           = NO
